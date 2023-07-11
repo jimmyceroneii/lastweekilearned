@@ -1,0 +1,37 @@
+html {
+	background-color: #FDF5DF;
+}
+
+body {
+	width: unset;
+	font-size: 20px;
+	font-family: 'Courier New', Courier, monospace, serif;
+	font-weight: 400;
+	color: #282E33;
+}
+
+h1,
+h2 {
+	color: #5EBEC4;
+	border-bottom: 1px solid black;
+}
+
+p {
+	line-height: 1.6rem;
+	letter-spacing: .025em !important;
+}
+
+a {
+	color: #F92C85;
+	font-style: italic;
+	text-decoration: none;
+}
+
+blockquote {
+	border: 1px solid black;
+	padding: 25px;
+}
+
+li {
+	margin-top: 25px;
+}

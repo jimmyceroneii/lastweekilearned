@@ -1,0 +1,18 @@
+html {
+	background-color: white;
+}
+
+body {
+	margin-left: auto;
+	margin-right: auto;
+	width: unset;
+	font-size: 20px;
+	font-family: "Crimson Pro", serif;
+	font-weight: 300;
+	color: #282E33;
+	font-feature-settings: "onum" 1;
+}
+
+p {
+	line-height: 27px;
+}
