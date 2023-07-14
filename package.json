@@ -1,0 +1,12 @@
+{
+  "name": "lastweekilearned",
+  "version": "1.0.0",
+  "description": "A tiny blog for my thoughts",
+  "main": "index.js",
+  "scripts": {
+    "transform": "pandoc --from markdown --to html --ascii ./md/$npm_config_title.md -o ./html/$npm_config_title.html"
+  },
+  "repository": "git@github.com:jimmyceroneii/lastweekilearned.git",
+  "author": "jimmyceroneii",
+  "license": "MIT"
+}
