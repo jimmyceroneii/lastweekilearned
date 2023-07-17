@@ -3,8 +3,8 @@
 filename="$1"
 title="$2"
 
-md_filename="$filename.md"
-html_filename="$filename.html"
+md_filename="./md/$filename.md"
+html_filename="./html/$filename.html"
 
 ## convert markdown to html
 pandoc --from markdown --to html --ascii "$md_filename" -o "$html_filename"
