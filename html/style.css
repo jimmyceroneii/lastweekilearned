@@ -1,19 +1,13 @@
-html {
-	background-color: #FDF5DF;
-}
-
 body {
-	width: unset;
-	font-size: 20px;
-	font-family: 'Courier New', Courier, monospace, serif;
+	font-size: 18px;
+	font-family: Palatino, serif;
 	font-weight: 400;
-	color: #282E33;
+	line-height: 1.6rem;
 }
 
 h1,
 h2 {
-	color: #5EBEC4;
-	border-bottom: 1px solid black;
+	margin-bottom: 2.5rem;
 }
 
 p {
@@ -21,15 +15,9 @@ p {
 	letter-spacing: .025em !important;
 }
 
-a {
-	color: #F92C85;
-	font-style: italic;
-	text-decoration: none;
-}
-
 blockquote {
 	border: 1px solid black;
-	padding: 25px;
+	padding: 15px;
 }
 
 li {
