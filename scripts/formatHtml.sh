@@ -22,6 +22,13 @@ echo "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">
 echo "<link type=\"text/css\" rel=\"stylesheet\" href=\"style.css\">" >> "$tmp_file"
 echo "</head>" >> "$tmp_file"
 echo "<body>" >> "$tmp_file"
+echo "<nav class=menu>" >> "$tmp_file"
+echo "<div>" >> "$tmp_file"
+echo "<a href=\"./index.html\">Home</a> |" >> "$tmp_file"
+echo "<a href=https://github.com/Jimmy-Neil-Have-Problems/idea-repository/wiki>Ideas</a> |" >> "$tmp_file"
+echo "<a href=./hyper-local>Hyper Local Blog</a>" >> "$tmp_file"
+echo "</div>" >> "$tmp_file"
+echo "</nav>" >> "$tmp_file"
 
 # Append the content of the original file to the temporary file
 cat "${html_filename}" >> "$tmp_file"
@@ -49,13 +56,16 @@ echo "<!DOCTYPE html>
 <title>Home Page</title>
 </head>
 <body>
-<nav class="crumbs">
-    <h1>Home Page</h1>
-    <ul>
-        <li class="crumb"><a href="https://github.com/Jimmy-Neil-Have-Problems/idea-repository/wiki">Ideas</a></li>
-        <li class="crumb"><a href="./hyper-local">Hyper Local Blog</a></li>
-    </ul>
+<nav class=menu>
+        <div>
+            <a href="./index.html">Home</a>
+            |
+            <a href=https://github.com/Jimmy-Neil-Have-Problems/idea-repository/wiki>Ideas</a>
+            |
+            <a href=./hyper-local>Hyper Local Blog</a>
+        </div>
 </nav>
+<h1>Home Page</h1>
 <ul>" > "$output_file"
 
 # Iterate over the files and generate HTML hyperlinks
