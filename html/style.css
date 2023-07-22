@@ -3,6 +3,8 @@ body {
 	font-family: Palatino, serif;
 	font-weight: 400;
 	line-height: 1.6rem;
+	max-width: 50%;
+	margin: 0 auto;
 }
 
 h1,
