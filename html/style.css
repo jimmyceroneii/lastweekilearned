@@ -7,6 +7,13 @@ body {
 	margin: 0 auto;
 }
 
+/* Media query for screens with a maximum width of 767 pixels (typically mobile devices) */
+@media (max-width: 767px) {
+	body {
+		max-width: 100%;
+	}
+}
+
 h1,
 h2 {
 	margin-bottom: 2.5rem;
