@@ -63,6 +63,8 @@ echo "<!DOCTYPE html>
             <a href=https://github.com/Jimmy-Neil-Have-Problems/idea-repository/wiki>Ideas</a>
             |
             <a href=./hyper-local>Hyper Local Blog</a>
+            |
+            <a href=./podcast>Podcast</a>
         </div>
 </nav>
 <h1>Home Page</h1>
