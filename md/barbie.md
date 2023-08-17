@@ -6,11 +6,11 @@ My focus in reflecting on Barbie is adjacent to the main stars. Barbie and Ken a
 
 Thanks to Scott Galloway, Liz Plank, and many others, my interest in creating a healthier masculinity is growing day by day. Ken presents an interesting set of commentary on modern masculinity, but it's Will Ferrell's role that I find more compelling.
 
-Ken's role begins pathetic, shifts to dangerous, and comes back to enlightened. there's real power to naming that arc and exposing it. The entitlement, insecurity, and obsessions of men are worth investigating and healing. Ken is full of the hard edges that make this story recognizable and problematic.
+Ken's role begins pathetic, shifts to dangerous, and comes back to enlightened. There's real power to naming that arc and exposing it. The entitlement, insecurity, and obsessions of men are worth investigating and healing. Ken is full of the hard edges that make this story recognizable and problematic.
 
 Will Ferrell's character is a different animal. He is portrayed as childish, yet powerful. Kara Swisher talks about our culture's simultaneous deification and coddling of men like this. Silicon Valley is full of men who deny their power, hiding behind the adult's in the room.
 
-Ken's trop is more obvious and it's easier to see danger there. The Andrew Tate's of the world are a real threat. But as Lil Wayne says, real g's move in silence. The covert nature of the Will Ferrell's of the world means their impact is underestimated.
+Ken's trope is more obvious and it's easier to see danger there. The Andrew Tate's of the world are a real threat. But as Lil Wayne says, real g's move in silence. The covert nature of the Will Ferrell's of the world means their impact is underestimated.
 
 To my mind, that makes them the more dangerous and difficult group. Treating a disease no one believes in is an impossible task. The pattern that I see here is the denial of power. It is a paradox, as it is strange to assert that those who deny power can be as dangerous as those who grasp it.
 
@@ -30,5 +30,5 @@ Those who could hold Elon accountable view him as a child, dumb but harmless. Th
 
 It's effective and the Barbie movie lays it out for us. What do we do here? Kara Swisher is right when she says we need to keep in mind these are adults with real power. Just because they act childish, does not mean they are not to be held accountable.
 
-Elon Musk is a father, a CEO, and over 50. It's time he started acting his age. He is not a victim, he is an actor, in all sense of the word. Watching a man roller skate into Barbie world is funny. Watching a man holding the keys to a war joke about cage matches is not.
+Elon Musk is a father, a CEO, and over 50. It's time he started acting his age. He is not a victim, he is an actor, in all senses of the word. Watching a man roller skate into Barbie world is funny. Watching a man holding the keys to a war joke about cage matches is not.
 
