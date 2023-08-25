@@ -5,6 +5,10 @@ jobs:
   validate-html: 
     runs-on: ubuntu-latest
     steps: 
-      - uses: anishathalye/proof-html@v2
+      - name: Check out repository
+        uses: actions/checkout@v2
+
+      - name: Validate HTML
+        uses: anishathalye/proof-html@v2
         with:
             directory: ${{ github.workspace }}/html
