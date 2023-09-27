@@ -51,16 +51,16 @@ output_file="./html/index.html"
 echo "<!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width">
-<link type="text/css" rel="stylesheet" href="style.css">
-<link rel="icon" type="image/x-icon" href="/images/favicon.png">
+<meta charset=\"utf-8\">
+<meta name=\"viewport\" content=\"width=device-width\">
+<link type=\"text/css\" rel=\"stylesheet\" href=\"style.css\">
+<link rel=\"icon\" type=\"image/x-icon\" href=\"/images/favicon.png\">
 <title>Home Page</title>
 </head>
 <body>
 <nav class=menu>
         <div>
-            <a href="./index.html">Home</a>
+            <a href=\"./index.html\">Home</a>
             |
             <a href=https://github.com/Jimmy-Neil-Have-Problems/idea-repository/wiki>Ideas</a>
             |
