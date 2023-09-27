@@ -18,7 +18,7 @@ echo "<html>" >> "$tmp_file"
 echo "<head>" >> "$tmp_file"
 echo "<title>${title}</title>" >> "$tmp_file"
 echo "<meta charset=\"utf-8\">" >> "$tmp_file"
-echo "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">" >> "$tmp_file"
+echo "<meta name=\"viewport\" content=\"width=device-width\">" >> "$tmp_file"
 echo "<link type=\"text/css\" rel=\"stylesheet\" href=\"style.css\">" >> "$tmp_file"
 echo "<link rel=icon type=image/x-icon href=images/favicon.png>" >> "$tmp_file"
 echo "</head>" >> "$tmp_file"
@@ -52,7 +52,7 @@ echo "<!DOCTYPE html>
 <html>
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width">
 <link type="text/css" rel="stylesheet" href="style.css">
 <link rel="icon" type="image/x-icon" href="/images/favicon.png">
 <title>Home Page</title>
