@@ -10,7 +10,7 @@ body {
 /* Media query for screens with a maximum width of 767 pixels (typically mobile devices) */
 @media (max-width: 767px) {
 	body {
-		max-width: 100%;
+		max-width: 80%;
 	}
 }
 
