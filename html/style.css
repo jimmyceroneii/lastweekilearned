@@ -21,6 +21,17 @@ nav {
 h1,
 h2 {
 	margin-bottom: 2.5rem;
+	line-height: 5%;
+}
+
+div.home-section-container {
+	border: 1px solid black;
+	padding: 10px 0;
+	margin: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 5px;
 }
 
 p {

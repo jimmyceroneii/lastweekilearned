@@ -2,9 +2,10 @@
 
 filename="$1"
 title="$2"
+type="$3"
 
 md_filename="./md/$filename.md"
-html_filename="./html/$filename.html"
+html_filename="./html/$type/$filename.html"
 
 ## convert markdown to html
 pandoc --from markdown --to html --ascii "$md_filename" -o "$html_filename"
@@ -25,10 +26,7 @@ echo "</head>" >> "$tmp_file"
 echo "<body>" >> "$tmp_file"
 echo "<nav class=menu>" >> "$tmp_file"
 echo "<div>" >> "$tmp_file"
-echo "<a href=\"./index.html\">Home</a> |" >> "$tmp_file"
-echo "<a href=https://github.com/Jimmy-Neil-Have-Problems/idea-repository/wiki>Ideas</a> |" >> "$tmp_file"
-echo "<a href=./hyper-local>Hyper Local Blog</a> |" >> "$tmp_file"
-echo "<a href=./podcast>Podcast</a>" >> "$tmp_file"
+echo "<a href=\"../index.html\">Home</a> |" >> "$tmp_file"
 echo "</div>" >> "$tmp_file"
 echo "</nav>" >> "$tmp_file"
 
@@ -42,10 +40,10 @@ echo "</body></html>" >> "$tmp_file"
 mv "$tmp_file" "$html_filename"
 
 # Run the command to list files excluding "index.html" and store the output in a variable
-files=$(cd ./html/ && ls -t *.html | grep -v -e '^index\.html$')
+files=$(cd ./html/$type && ls -t *.html | grep -v -e '^index\.html$')
 
 # Specify the name of the output HTML file
-output_file="./html/index.html"
+output_file="./html/$type/index.html"
 
 # Create the HTML file and write the initial HTML structure
 echo "<!DOCTYPE html>
@@ -53,23 +51,17 @@ echo "<!DOCTYPE html>
 <head>
 <meta charset=\"utf-8\">
 <meta name=\"viewport\" content=\"width=device-width\">
-<link type=\"text/css\" rel=\"stylesheet\" href=\"style.css\">
+<link type=\"text/css\" rel=\"stylesheet\" href=\"../style.css\">
 <link rel=\"icon\" type=\"image/x-icon\" href=\"/images/favicon.png\">
-<title>Home Page</title>
+<title>$type</title>
 </head>
 <body>
 <nav class=menu>
         <div>
-            <a href=\"./index.html\">Home</a>
-            |
-            <a href=https://github.com/Jimmy-Neil-Have-Problems/idea-repository/wiki>Ideas</a>
-            |
-            <a href=./hyper-local>Hyper Local Blog</a>
-            |
-            <a href=./podcast>Podcast</a>
+            <a href=\"../index.html\">Home</a>
         </div>
 </nav>
-<h1>Home Page</h1>
+<h1>$type</h1>
 <ul>" > "$output_file"
 
 # Iterate over the files and generate HTML hyperlinks
