@@ -26,7 +26,7 @@ echo "</head>" >> "$tmp_file"
 echo "<body>" >> "$tmp_file"
 echo "<nav class=menu>" >> "$tmp_file"
 echo "<div>" >> "$tmp_file"
-echo "<a href=\"../index.html\">Home</a> |" >> "$tmp_file"
+echo "<a href=\"../index.html\">Home</a>" >> "$tmp_file"
 echo "</div>" >> "$tmp_file"
 echo "</nav>" >> "$tmp_file"
 
