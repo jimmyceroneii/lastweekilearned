@@ -72,3 +72,6 @@ done <<< "$files"
 # Write the closing HTML tags
 echo "</ul></body>
 </html>" >> "$output_file"
+
+chmod 644 "$output_file"
+chmod 644 "$html_filename"
