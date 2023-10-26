@@ -21,7 +21,7 @@ echo "<title>${title}</title>" >> "$tmp_file"
 echo "<meta charset=\"utf-8\">" >> "$tmp_file"
 echo "<meta name=\"viewport\" content=\"width=device-width\">" >> "$tmp_file"
 echo "<link type=\"text/css\" rel=\"stylesheet\" href=\"../style.css\">" >> "$tmp_file"
-echo "<link rel=icon type=image/x-icon href=images/favicon.png>" >> "$tmp_file"
+echo "<link rel=icon type=image/x-icon href=../images/favicon.png>" >> "$tmp_file"
 echo "</head>" >> "$tmp_file"
 echo "<body>" >> "$tmp_file"
 echo "<nav class=menu>" >> "$tmp_file"
@@ -52,7 +52,7 @@ echo "<!DOCTYPE html>
 <meta charset=\"utf-8\">
 <meta name=\"viewport\" content=\"width=device-width\">
 <link type=\"text/css\" rel=\"stylesheet\" href=\"../style.css\">
-<link rel=\"icon\" type=\"image/x-icon\" href=\"/images/favicon.png\">
+<link rel=\"icon\" type=\"image/x-icon\" href=\"../images/favicon.png\">
 <title>$type</title>
 </head>
 <body>
@@ -75,3 +75,4 @@ echo "</ul></body>
 
 chmod 644 "$output_file"
 chmod 644 "$html_filename"
+
