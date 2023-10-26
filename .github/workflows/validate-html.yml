@@ -1,5 +1,5 @@
-name: upload-html-to-droplet
-run-name: ${{ github.actor }} is learning GitHub Actions
+name: validate-html
+run-name: Validate HTML
 on: [push]
 jobs:
   validate-html: 
@@ -9,6 +9,6 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Validate HTML
-        uses: anishathalye/proof-html@v2
+        uses: Cyb3r-Jak3/html5-validator-action
         with:
-            directory: ${{ github.workspace }}/html
+            root: ${{ github.workspace }}/html
