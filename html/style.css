@@ -1,9 +1,10 @@
 body {
 	font-size: 1.5rem;
-	font-family: Palatino, serif;
+	font-family: Forum, serif;
 	font-weight: 400;
 	max-width: 50%;
 	margin: 0 auto;
+	background-color: #F7F7F7;
 }
 
 /* Media query for screens with a maximum width of 767 pixels (typically mobile devices) */
@@ -35,6 +36,23 @@ div.home-section-container {
 p {
 	line-height: 1.6rem;
 	letter-spacing: .025em !important;
+}
+
+a {
+	color: #666666;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #999999;
+}
+
+a:hover {
+	color: #888888;
+}
+
+a:active {
+	color: #999999;
 }
 
 blockquote {
